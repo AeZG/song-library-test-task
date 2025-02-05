@@ -10,7 +10,7 @@ type Song struct {
 	ID          int64
 	GroupName   string
 	Title       string
-	ReleaseDate time.Time
+	ReleaseDate string
 	Link        string
 	Text        string
 	CreatedAt   time.Time
